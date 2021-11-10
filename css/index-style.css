@@ -1,0 +1,549 @@
+/* <!------- Home-section ------> */
+#home
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;;
+    
+}
+p
+.body , html
+{
+    scroll-behavior: unset;
+    font-family: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif";
+}
+
+#home h1
+{
+    padding-top:15%;
+    font-size:4rem;
+    line-height:86px;
+    font-weight: 600;
+}
+.navper
+{
+    z-index: 6468468468468;
+}
+.navbar 
+{
+    transition: 1s;
+}
+.nav-logo
+{
+    font-size:28px;
+    line-height:34px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.nav-links
+{
+    font-size:16px;
+    line-height:24px;
+    font-weight: 600;
+    color: #fff;
+}
+.typing1
+{
+    color: #fff;
+    display: -webkit-inline-box;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 40%;
+    width: 30%;
+
+}
+
+.typing1 p
+{
+    font-size: 3rem;
+    font-weight: 400; 
+}
+
+p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+    -webkit-animation: blink 1s infinite;
+}
+p span.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+}
+
+/*<!-------- about-section------> */
+#about
+{
+    background-color: #F5F5F5;
+}
+.about-info .info ul li
+{   
+    list-style: none;
+    margin-bottom:1rem;
+    font-size:18px;
+    line-height: 26px;
+    font-weight: 600;
+    color:#1e1e1e;
+}
+.about-info .info ul li h6
+{
+    list-style: none;
+    font-size:1rem;
+    line-height: 24px;
+    font-weight: 400;
+    color:#4e4e4e;
+}
+.about-info .skill ul li
+{
+    list-style: none;
+    position: relative;
+    padding-bottom: 30px;  
+}
+.about-info .skill h6{
+    font-size:1rem;
+    line-height: 26px;
+    font-weight: 600;
+    color:#1e1e1e;
+    margin-bottom: 20px;
+} 
+
+.about-info .skill ul .skill-no1::after
+{
+    content: "";
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-image: linear-gradient(90deg,#09c 85%, #F1F1F1 30%);
+}
+.about-info .skill ul .skill-no2::after
+{
+    content: "";
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-image: linear-gradient(90deg,#09c 75%, #F1F1F1 30%);
+}
+.about-info .skill ul .skill-no3::after
+{
+    content: "";
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-image: linear-gradient(90deg,#09c 50%, #F1F1F1 30%);
+}
+.about-info .skill ul .skill-no4::after
+{
+    content: "";
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-image: linear-gradient(90deg,#09c 90%, #F1F1F1 30%);
+}
+
+.about-content h2
+{
+    font-size:32px;
+    line-height: 38px;
+    font-weight: 500;
+    color:#1e1e1e;
+    margin-bottom:40px;
+    position:relative;
+}
+.about-content h2::after
+{
+    content:"";
+    width:18%;
+    height: 4px;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    background-color:#09c;
+}
+.about-content p{
+    font-size:1.25rem;
+    line-height: 30px;
+    font-weight: 300;
+    color:#4e4e4e;
+}
+/*<!-------- services-section------> */
+#services
+{
+    background-color: #F5F5F5;
+}
+.header
+{
+    padding:100px
+}
+.header h2
+{
+    font-size:3rem;
+    line-height: 58px;
+    font-weight: 700;
+    color:#1e1e1e;
+}
+.header p
+{
+    line-height: 24px;
+    font-weight: 400;
+    color:#4e4e4e;
+    position: relative;
+}
+.header p::after
+{
+    content:"";
+    width:3rem;
+    height: 0.3rem;
+    position: absolute;
+    left:48%;
+    bottom:-1.1rem;
+    background-color:#09c;
+}
+#services i
+{
+    font-size: 50px;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition:all 500ms ease;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 0.5s ease;
+    color:black;
+}
+#services .services-content i:hover 
+{
+    box-shadow: 0 0 0 10px #cde1f8;
+    background-color: #0078ff;
+    color: #fff !important;
+}
+#services .services-content h3
+{
+    font-size:1.5rem;
+    line-height: 27px;
+    font-weight: 500;
+    padding: .4rem 0;
+    color:#1e1e1e;
+}
+#services .services-content p
+{
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom:2rem;
+    color:#4e4e4e;
+}
+/*<!-------- counter-section------> */
+
+#counter
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#counter .counter
+{
+    background-color: rgba(0, 120, 255,.7);
+}
+
+#counter .counter-box i
+{
+    font-size: 70px;
+}
+#counter .counter-box h3
+{
+    font-size:2rem;
+    line-height: 48px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#counter .counter-box p
+{
+    font-size:1rem;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/*<!-------- portfolio-section------> */
+#portfolio
+{
+    background-color: #F5F5F5;
+}
+
+#portfolio .portfolio-content .portfolio-box h2
+{
+    font-size:1.2rem;
+    line-height: 23px;
+    font-weight: 500;
+    color: #1e1e1e;
+
+}
+#portfolio .portfolio-content .portfolio-box .title-color
+{
+    font-size:1rem;
+    line-height: 19px;
+    font-weight: 400;
+    color: #0078ff;
+}
+#portfolio .portfolio-content .portfolio-box
+{
+    padding: 1.5rem;
+}
+#portfolio .portfolio-content i
+{
+    font-size: 3rem;
+    color: #0078ff;
+    padding: 1.7rem 0.8rem;
+
+}
+#portfolio .portfolio-content .portfolio-img , #portfolio .portfolio-content .portfolio-img img
+{
+    transition: all 1s;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#portfolio .portfolio-content .portfolio-img:hover img 
+{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/*<!-------- feedback-section------> */
+#feedback
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#feedback .overlay
+{
+    background-color: rgba(0, 120, 255,.7);
+}
+
+#feedback h3
+{
+    font-size:2rem;
+    line-height: 43px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#feedback p
+{
+    font-size:1.5rem;
+    line-height: 30px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top:-70;
+    border-radius: 50%;
+}
+
+/*<!-------- blog-section------> */
+#blog .blog-content .card-blog
+{
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom:5rem
+}
+#blog .blog-content .card-blog .card-content
+{
+    padding: 0.5rem 1rem;
+}
+#blog .blog-content .card-blog .card-footer img
+{
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+#blog .blog-content .card-blog .card-content h3
+{
+    font-size:1.3rem;
+    line-height: 25px;
+    font-weight: 500;
+    color: #1c232b;
+    position: relative;
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+    -moz-text-decoration-style: none;
+}
+#blog .blog-content .card-blog .card-content h3:hover
+{
+    color: #0a58ca;
+}
+#blog .blog-content .card-blog .card-content .logo1 h3::before
+{
+    content: "TRAVEL";
+    position:absolute;
+    top: -40;
+    left: 38%;
+    background-color:#0078FF;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+#blog .blog-content .card-blog .card-content .logo2 h3::before
+{
+    content: "Web Design";
+    position:absolute;
+    top: -40;
+    left: 38%;
+    background-color:#0078FF;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#blog .blog-content .card-blog .card-content p
+{
+    font-size:1rem;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1c232b;
+    margin-bottom: 1.5rem;
+}
+#blog .blog-content .card-blog a 
+{
+    text-decoration: none;
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+    -moz-text-decoration-style: none;
+}
+#blog .blog-content .card-blog .card-footer a:hover
+{
+    color: #0a58ca;
+}
+
+/*<!-------- from-section------> */
+
+#form
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#form .overlay
+{
+    background-color: rgba(0, 120, 255,.7);
+    padding-top:7rem;
+    padding-bottom:3rem;
+
+}
+#form  ul 
+{
+    list-style-type: none;
+}
+#form .social ul li i
+{
+    font-size: 1.5rem;
+    box-shadow: 0 0 0 3px #0078ff;;
+    transition:all 500ms ease;
+    padding: 0.7rem;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 0.5s ease;
+}
+
+#form .social ul li i:hover
+{
+    box-shadow: 0 0 0 3px #fff;
+    background-color: #0078ff;
+    color: #fff !important;
+}
+
+#form .title-contnet h5
+{
+    font-size:2rem;
+    line-height: 38px;
+    font-weight: 500;
+    color: #1c232b;
+    margin-bottom: 3rem;
+    position: relative;
+}
+#form .title-contnet h5::after
+{
+    content:"";
+    width:7rem;
+    height: 0.3rem;
+    position: absolute;
+    left:0%;
+    bottom:-0.7rem;
+    background-color:#09c;
+}
+
+#form .form-info .form-control
+{
+    height:3rem ;
+    box-shadow: 0 0 0 1px #0078ff;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+#form .form-info .btn-sub button
+{
+    padding: 0.7rem 4rem;
+    color: #fff;
+}
+#form .form-info
+{
+    margin-bottom: 5rem;
+}
+#form .more-info p
+{
+    font-size:1.2rem;
+    line-height: 30px;
+    font-weight: 300;
+    color: #4e4e4e;
+    margin-bottom: 1rem;
+}
+
+
+#footer
+{
+    background-color:#0062D3;
+}
+#footer .copyright-box .copy-color
+{
+    font-weight: 700;
+}
